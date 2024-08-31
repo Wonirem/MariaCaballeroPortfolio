@@ -630,5 +630,544 @@ footer{
     height: 70px;
     background-color: #a44415;
 }
+@media (max-width: 768px) {
+    /* Estilos para la mayoría de los dispositivos móviles */
+    body {
+        font-size: 12px;
+        padding: 10px;
+        width: 100%;
+    }
+    .Cabecera{
+        z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+        width: 100%;
+        height: 10%;
+
+    }
+    header img{
+        margin-top: 10%;
+        margin-left:25%;
+        padding: 2%;
+        width: 50%;
+        height: 50%;
+        align-self: center;
+    }
+    .menu {
+        
+        position: fixed;
+        display: flex;
+        margin: 2%;        
+        padding-top: 100px;
+        width: 100%;    
+        height:150px;
+        justify-content: left;
+        align-content: center;
+    }
+    .items-menu {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-right: 22%;        
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 6px;              
+        text-decoration: none;
+      
+    }
+    
+    .items-menu li {
+        display: inline;
+        margin: 0;      
+        padding: 5px ;           
+        text-align: center;
+        justify-content: space-between;
+    }
+    .items-menu li a{
+        
+        font-size: 8px;
+        
+    }
+    .items-menu li a:hover{
+        
+        font-size: 8px;
+        font-weight: bold;
+        
+    }
+    .Descripcion{
+       
+        width: 70%;
+        align-items: center;
+        margin: 15%; 
+        padding-top: 0;   
+        padding-bottom: 0;           
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        
+        
+    }
+    .texto_1{
+        
+        
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 100%;
+        
+        font-family: "Advent Pro", sans-serif;
+        margin: 0;
+        font-size: 12px;
+        padding-bottom: 5%;
+        
+    
+    }
+    .texto_1 h2{
+    
+       
+        font-family: "Acme", sans-serif;
+        font-size: 20px;
+    }
+    .Imagen_perfil{
+
+        margin:0;
+        width: 100%;  
+
+    }
+
+    .Imagen_perfil img{
+
+       width: 90%;
+       height: 95%;
+       align-self: center;
+       margin: auto;
+    }
+    h4{
+        text-align: center;
+        font-size: 24px;
+        margin: 1%;  
+        padding: 0px; 
+        margin-top: 0px;    
+    
+    }
+    .Formacion{
+        display: flex;
+        flex-direction: column;    
+        justify-content: space-between;
+        height: 50%;
+    }
+    .card-img-top{
+
+        width:32px;
+        height:32px ;
+        align-self: center;
+        
+    }
+    .card1{
+
+        padding: auto;
+        margin: auto;
+        margin-top: 5px;
+        
+        
+    }    
+    
+    .card-body{
+        text-align: center;
+        font-family: "Advent Pro", sans-serif;
+        font-size: 11px;
+    }
+    .card-title{
+        color:  #a44415;
+        font-family: "Acme", sans-serif;
+        font-size: 15px;
+        margin: 1%;
+        text-align: center;
+    }
+    .line_1{
+    
+        border: solid 1px ;      
+        opacity: 70%;
+        margin: 1%;
+        
+    }
+    .Habilidades{
+
+        display: flex;
+        flex-direction: column;    
+        justify-content: space-between;
+        height: 50%;
+       
+    
+    }
+    .introduccion{
+        justify-content: center;
+        text-align: justify;
+        margin:auto;
+        padding-bottom: 0;
+        padding: 5%;
+        width: 60%;
+        font-family: "Advent Pro", sans-serif;
+        font-size: 15px;
+    }
+    
+    .Categoria{
+    
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-family:  "Acme", sans-serif ;
+        font-size: 25px;
+       
+    }
+    .carrusel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 95%;
+        height: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+    
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    
+    .img{
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.35);
+        height: 90%;
+        width: 95%;
+        border-radius: 10px ;
+            
+    }
+    .texto{
+    
+        position: absolute; /* Para que se ponga por encima de la imagen */
+        flex-direction: column;
+        transform: translateY(0px);
+        margin-bottom: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+    }
+    
+    .texto h3{
+        text-shadow: 0px 5px 10px black;
+        padding-top: 10%;
+        text-align: center;
+        color: #fcf5e7;
+        font-weight: bold;
+        font-size: 15px;
+        font-family:  "Acme", sans-serif ;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .imagenes .texto{
+        width: 300px;
+        height: 50px;
+        transition: 1s;
+        opacity: 0;
+    
+    }
+    
+    .imagenes:hover .texto{
+        transition: height 1s, transform 1s, background-color 1s;
+        transform: translateY(-30px);
+        height: 150px;      
+        background-color: rgba(116, 13, 13, 0.827);
+        opacity: 1;
+    }
+    .imagenes:hover .texto:empty{
+        display: none;
+    }
+    
+    
+    .imagenes .texto p{
+        
+        font-size: 12px;
+        font-weight: 100;
+        font-family: "Advent Pro", sans-serif;;
+        color: #ffffff;
+        text-shadow:none;
+        text-align: justify;
+        padding: 10px;
+        
+    }
+    .imagenes:hover .texto p{
+        transition: font-size 0s .2s linear;
+        font-size: 12px;  
+        padding: 10px;
+        font-weight: 400;
+        opacity: 1;
+    }  
+    
+   
+    
+    .puntos p{
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: -30px;
+      
+    }
+    .carrusel3d{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 95%;
+        height: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+    
+    .Renders{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .img3d{
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.35);
+        height: 90%;
+        width: 95%;
+        border-radius: 10px ;
+    }
+    .texto3d{
+        
+        position: absolute; /* Para que se ponga por encima de la imagen */
+        flex-direction: column;
+        transform: translateY(0px);
+        margin-bottom: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+    }
+    
+    .texto3d h3{
+        text-shadow: 0px 5px 10px black;
+        padding-top: 10%;
+        text-align: center;
+        color: #fcf5e7;
+        font-weight: bold;
+        font-size: 15px;
+        font-family:  "Acme", sans-serif ;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .Renders .texto3d{
+        width: 300px;
+        height: 50px;
+        transition: 1s;
+        opacity: 0;
+    
+    
+    }
+    
+    .Renders:hover .texto3d{
+        transition: height 1s, transform 1s, background-color 1s;
+        transform: translateY(-30px);
+        height: 220px;      
+        background-color: rgba(116, 13, 13, 0.827);
+        opacity: 1;
+    }
+    .Renders:hover .texto3d:empty{
+        display: none;
+    }
+    
+    
+    .Renders .texto3d p{
+        font-size: 12px;
+        font-weight: 100;
+        font-family: "Advent Pro", sans-serif;;
+        color: #ffffff;
+        text-shadow:none;
+        text-align: justify;
+        padding: 10px;
+        
+    }
+    .Renders:hover .texto3d p{
+        transition: font-size 0s .2s linear;
+        font-size: 12px;  
+        padding: 10px;
+        font-weight: 400;
+        opacity: 1;
+    }   
+    
+   
+    
+    .puntos3d p{
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: -30px;
+    }
+    .slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 95%;
+        height: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+    
+    .contenedorImagenes {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imagenActual {
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.35);
+        height: 90%;
+        width: 95%;
+        border-radius: 10px ;
+            
+    }
+    
+    .descripcion {
+        position: absolute; /* Para que se ponga por encima de la imagen */
+        flex-direction: column;
+        transform: translateY(0px);
+        margin-bottom: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+    }
+    
+    .descripcion h3 {
+        text-shadow: 0px 5px 10px black;
+        padding-top: 10%;
+        text-align: center;
+        color: #fcf5e7;
+        font-weight: bold;
+        font-size: 15px;
+        font-family:  "Acme", sans-serif ;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .contenedorImagenes .descripcion {
+        width: 300px;
+        height: 50px;
+        transition: 1s;
+        opacity: 0;
+    
+    }
+    
+    .contenedorImagenes:hover .descripcion {
+        transition: height 1s, transform 1s, background-color 1s;
+        transform: translateY(-30px);
+        height: 150px;      
+        background-color: rgba(116, 13, 13, 0.827);
+        opacity: 1;
+    }
+    
+    .contenedorImagenes:hover .descripcion:empty {
+        display: none;
+    }
+    
+    .contenedorImagenes .descripcion p {
+        font-size: 12px;
+        font-weight: 100;
+        font-family: "Advent Pro", sans-serif;;
+        color: #ffffff;
+        text-shadow:none;
+        text-align: justify;
+        padding: 10px;
+        
+    }
+    
+    .contenedorImagenes:hover .descripcion p {
+        transition: font-size 0s .2s linear;
+        font-size: 12px;  
+        padding: 10px;
+        font-weight: 400;
+        opacity: 1;
+    }
+    
+   
+    
+    .indicadores p {
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: -30px;
+    }
+
+
+    .Contacto{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+    
+    }
+   
+    .elementos_contacto{
+    
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    
+    .elementos_contacto p{
+    
+        width: 90%;
+        margin-top: 20px;
+        height: 150px;        
+        padding: 5%;
+        margin: auto;  
+        font-family:  "Advent Pro", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        text-align: justify;    
+        color: #f4f1e8;
+    }
+    .Iconos_contacto{
+        border-left:none ;
+    
+    }
+    
+    .card3{
+    
+        display: flex;
+        flex-direction: row;
+    }
+    .card-img3{
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .card-text3{
+    
+        font-family: "Advent Pro", sans-serif;
+        font-weight: 400;
+        font-size: 20px;   
+        padding: 10px;
+        color: #f3dbae;
+         
+    
+    }
+    
+    
+    
+   
+    
+    
+    
+   
+
+   
+}
+
 
 
