@@ -24,17 +24,16 @@ header{
     z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
     display: flex;
     flex-direction: row;
-   
-    
-   
+      
 }
+
 header img{
     margin: auto;
     padding-top: 25px;
 }
 
 .menu {
-    background-color: #f4f1e8;
+    background-color:   #f4f1e8;
     position: fixed;
     display: flex;
     margin: 0;
@@ -117,17 +116,57 @@ header img{
     border: solid 5px;
     border-color: #a44415;
 }
- h4{
+
+.Softwares{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-top: #7a1706a4 solid 2px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: #7a1706a4 solid 2px;
+    
+
+}
+.Programa{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    margin: auto;
+    font-family: "Advent Pro", sans-serif;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    
+    
+}
+.card-img-logo{
+
+    width: 32px;
+    height: 32px;   
+
+
+}
+
+
+
+
+h4{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     color: #a44415;
     font-family: "Acme", sans-serif;
 
 }
+
 .Formacion{
     display: flex;
     flex-direction: row;    
     justify-content: space-between;
+    height: 300px;
 }
 .card1{
     margin: auto;
@@ -149,13 +188,17 @@ header img{
     font-family: "Acme", sans-serif;
     font-size: 20px;
 }
+
 .line_1{
 
-    border: solid 1px ;
-    border-color:  #83482a;
-    opacity: 70%;
-    
+   box-shadow:  0 2px 4px rgba(87, 4, 4, 0.8);
+   border-bottom:#7a1706 2px;
+   border-radius: 20%;
+   
+  
+   
 }
+
 .Habilidades{
 
     display: flex;
@@ -202,6 +245,9 @@ header img{
     font-family:  "Acme", sans-serif ;
     font-size: 40px;
    
+}
+#Diseños2D{
+    scroll-margin-top: 150px;
 }
 
 
@@ -324,6 +370,9 @@ header img{
     margin-right: 10px;
     color: #7a1706;
 }
+#Diseños3D{
+    scroll-margin-top: 150px;
+}
 
 .carrusel3d{
     display: flex;
@@ -443,6 +492,11 @@ header img{
     margin-right: 10px;
     color: #7a1706;
 }
+
+#Animacion2D{
+    scroll-margin-top: 150px;
+}
+
 .slider {
     display: flex;
     align-items: center;
@@ -591,6 +645,7 @@ header img{
 }
 .Iconos_contacto{
     border-left:solid #f4f1e8 3px ;
+    border-radius: 5%;
 
 }
 
@@ -630,6 +685,7 @@ footer{
     height: 70px;
     background-color: #a44415;
 }
+
 @media (max-width: 768px) {
     /* Estilos para la mayoría de los dispositivos móviles */
     body {
@@ -740,12 +796,45 @@ footer{
        align-self: center;
        margin: auto;
     }
+    .Softwares{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+        justify-content: space-between;
+        margin-top: 50px;
+        border-top: #7a1706a4 solid 2px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+        border-bottom: #7a1706a4 solid 2px;
+        
+    
+    }
+    .Programa{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+        margin: auto;
+        font-family: "Advent Pro", sans-serif;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        
+        
+    }
+    .card-img-logo{
+    
+        width: 32px;
+        height: 32px;   
+    
+    
+    }
     h4{
         text-align: center;
         font-size: 24px;
         margin: 0;  
         padding: 0px; 
-        margin-top: 0px; 
+        margin-top: -30px; 
         width: 100%;   
     
     }
@@ -820,6 +909,10 @@ footer{
         font-size: 25px;
        
     }
+    #Diseños2D{
+        scroll-margin-top: 200px;
+    }
+    
     .carrusel{
         display: flex;
         align-items: center;
@@ -916,6 +1009,10 @@ footer{
         margin-top: -30px;
       
     }
+    #Diseños3D{
+        scroll-margin-top: 200px;
+    }
+    
     .carrusel3d{
         display: flex;
         align-items: center;
@@ -1010,6 +1107,13 @@ footer{
         font-weight: 500;
         margin-top: -30px;
     }
+
+    #Animacion2D{
+        scroll-margin-top: 200px;
+    }
+    
+
+    
     .slider {
         display: flex;
         align-items: center;
@@ -1171,6 +1275,4 @@ footer{
 
    
 }
-
-
 
