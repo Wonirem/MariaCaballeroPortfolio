@@ -164,7 +164,7 @@ let Renders = [
         "descripcion3d":"Este proyecto presenta una casa diseñada en 3ds Max, sin texturizar, destinada para un proyecto de videojuego. El modelo sigue un estilo cartoon, con formas simplificadas",
     },
     {
-        "url": "./Imagenes/casaII.png",
+        "url": "./Imagenes/CasaII.png",
         "nombre3d": "",
         "descripcion3d":"",
     },
