@@ -1,4 +1,17 @@
 let imagenes = [
+
+
+
+    {
+        "url": "../Imagenes/arcoCarrusel.png",
+        "nombre": "Dibujo con referencia",
+        "descripcion":"Este dibujo captura un arco inspirado en la fotografía de la derecha. Elegí esta imagen para practicar efectos de luz y sombra. Las sombras acentúan la estructura, mientras que las luces resaltan la profundidad de la imagen.",
+    },
+    {
+        "url": "../Imagenes/arcoCarrusel2.png",
+        "nombre": "",
+        "descripcion":"",
+    },
     {
         "url": "./Imagenes/Concept1.png",
         "nombre": "Diseño de personaje",
