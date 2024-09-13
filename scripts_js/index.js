@@ -102,15 +102,20 @@ actualizarCarrusel();
 
 let Renders = [
     {
-        "url": "./Imagenes/RenderConejo2.png",
-        "nombre3d": "Bunny Bot",
-        "descripcion3d":"Este proyecto presenta un modelo low poly creado en 3ds Max. El objetivo del diseño fue asegurar un ensamblaje coherente. El modelo no está completamente texturizado, ya que el objetivo es destacar la simplicidad y la geometría característica del estilo low poly. Sin embargo, algunos elementos clave, como los tornillos y piezas metálicas, han sido texturizados para resaltar y añadir un contraste sutil pero efectivo. A continuación, se adjunta una ampliación de las piezas de ensamblado, permitiendo apreciar los detalles y la precisión en la construcción del modelo.",
+        "url": "./Imagenes/DragonPortada.png",
+        "nombre3d": "MinoDrag",
+        "descripcion3d":"Este proyecto es un modelo 3D realizado íntegramente en ZBrush, donde se ha trabajado tanto la escultura como la textura. A continuación, se presentan renders del modelo desde varias perspectivas.",
     },
     {
-        "url": "./Imagenes/RenderConejo1.png",
+        "url": "./Imagenes/DragonII.png",
         "nombre3d": "",
         "descripcion3d":"",
     },
+    {
+        "url": "./Imagenes/DragonIII.png",
+        "nombre3d": "",
+        "descripcion3d":"",
+    },   
     {
         "url": "./Imagenes/beemoPrincipal.png",
         "nombre3d": "Beemo",
@@ -138,6 +143,16 @@ let Renders = [
     },
     {
         "url": "./Imagenes/BeemoEspalda.png",
+        "nombre3d": "",
+        "descripcion3d":"",
+    },
+    {
+        "url": "./Imagenes/RenderConejo2.png",
+        "nombre3d": "Bunny Bot",
+        "descripcion3d":"Este proyecto presenta un modelo low poly creado en 3ds Max. El objetivo del diseño fue asegurar un ensamblaje coherente. El modelo no está completamente texturizado, ya que el objetivo es destacar la simplicidad y la geometría característica del estilo low poly. Sin embargo, algunos elementos clave, como los tornillos y piezas metálicas, han sido texturizados para resaltar y añadir un contraste sutil pero efectivo. A continuación, se adjunta una ampliación de las piezas de ensamblado, permitiendo apreciar los detalles y la precisión en la construcción del modelo.",
+    },
+    {
+        "url": "./Imagenes/RenderConejo1.png",
         "nombre3d": "",
         "descripcion3d":"",
     },
