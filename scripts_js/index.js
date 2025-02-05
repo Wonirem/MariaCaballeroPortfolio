@@ -8,17 +8,17 @@ let imagenes = [
         "descripcion":"Este dibujo captura un arco inspirado en la fotografía de la derecha. Elegí esta imagen para practicar efectos de luz y sombra. Las sombras acentúan la estructura, mientras que las luces resaltan la profundidad de la imagen.",
     },
     {
-        "url": "./Imagenes/Ink1.png",
+        "url": "./Imagenes/ink1.png",
         "nombre": "Imágenes Inktober 2024",
         "descripcion":"Algunas de las ilustraciones realizadas para el Inktober 2024. Más en mi Instagram",
     },
     {
-        "url": "./Imagenes/Ink2.png",
+        "url": "./Imagenes/ink2.png",
         "nombre": "",
         "descripcion":"",
     },
     {
-        "url": "./Imagenes/Ink3.png",
+        "url": "./Imagenes/ink3.png",
         "nombre": "",
         "descripcion":"",
     },
