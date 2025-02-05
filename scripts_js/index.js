@@ -8,7 +8,17 @@ let imagenes = [
         "descripcion":"Este dibujo captura un arco inspirado en la fotografía de la derecha. Elegí esta imagen para practicar efectos de luz y sombra. Las sombras acentúan la estructura, mientras que las luces resaltan la profundidad de la imagen.",
     },
     {
-        "url": "./Imagenes/arcoCarrusel2.png",
+        "url": "./Imagenes/Ink1.png",
+        "nombre": "Imágenes Inktober 2024",
+        "descripcion":"Algunas de las ilustraciones realizadas para el Inktober 2024. Más en mi Instagram",
+    },
+    {
+        "url": "./Imagenes/Ink2.png",
+        "nombre": "",
+        "descripcion":"",
+    },
+    {
+        "url": "./Imagenes/Ink3.png",
         "nombre": "",
         "descripcion":"",
     },
@@ -32,26 +42,7 @@ let imagenes = [
         "nombre": "Diseño de Enemigos",
         "descripcion":"Estos son los diseños de los enemigos del videojuego. Al igual que el personaje principal, el patinete y el broche, estos enemigos comparten el mismo estilo visual, asegurando una coherencia estética en todo el juego.",
     },
-    {
-        "url": "./Imagenes/PropsZombies1.png",
-        "nombre": "Conjunto Props Zombies",
-        "descripcion":"Trabajo en el que se proponía crear tres props cotidianos con una temática común. Quise añadir el toque zombie para que no fueran simples objetos de baño."
-    },
-    {
-        "url": "./Imagenes/ToallasZombie.png",
-        "nombre": "",
-        "descripcion":"",
-    },
-    {       
-        "url": "./Imagenes/BañeraZombie.png",
-        "nombre": "",
-        "descripcion":"",
-    },
-    {
-        "url": "./Imagenes/PatitoZombie.png",
-        "nombre": "",
-        "descripcion":"",
-    }
+    
 ];
 
 let atras = document.getElementById('atras');
@@ -101,6 +92,32 @@ actualizarCarrusel();
 
 
 let Renders = [
+
+    {
+        "url": "./Imagenes/bnk1.png",
+        "nombre3d": "Bunker",
+        "descripcion3d":"Modelado y texturizado con Blender y Substance de un bunker ambientado en la segunda guerra mundial, tomando como referencia objetos de esas fechas.",
+    },
+    {
+        "url": "./Imagenes/bnk2.png",
+        "nombre3d": "",
+        "descripcion3d":"",
+    },
+    {
+        "url": "./Imagenes/bnk3.png",
+        "nombre3d": "",
+        "descripcion3d":"",
+    },
+    {
+        "url": "./Imagenes/bnk4.png",
+        "nombre3d": "",
+        "descripcion3d":"",
+    },
+    {
+        "url": "./Imagenes/bnk5.png",
+        "nombre3d": "",
+        "descripcion3d":"",
+    },
     {
         "url": "./Imagenes/DragonPortada.png",
         "nombre3d": "MinoDrag",
@@ -146,16 +163,7 @@ let Renders = [
         "nombre3d": "",
         "descripcion3d":"",
     },
-    {
-        "url": "./Imagenes/RenderConejo2.png",
-        "nombre3d": "Bunny Bot",
-        "descripcion3d":"Este proyecto presenta un modelo low poly creado en 3ds Max. El objetivo del diseño fue asegurar un ensamblaje coherente. El modelo no está completamente texturizado, ya que el objetivo es destacar la simplicidad y la geometría característica del estilo low poly. Sin embargo, algunos elementos clave, como los tornillos y piezas metálicas, han sido texturizados para resaltar y añadir un contraste sutil pero efectivo. A continuación, se adjunta una ampliación de las piezas de ensamblado, permitiendo apreciar los detalles y la precisión en la construcción del modelo.",
-    },
-    {
-        "url": "./Imagenes/RenderConejo1.png",
-        "nombre3d": "",
-        "descripcion3d":"",
-    },
+
     {
         "url": "./Imagenes/BODEGON2.png",
         "nombre3d": "Bodegón",
@@ -196,11 +204,7 @@ let Renders = [
         "nombre3d": "",
         "descripcion3d":"",
     },
-    {
-        "url": "./Imagenes/EnDesarrolloCozyRoom.png",
-        "nombre3d": "Habitacion Cozy",
-        "descripcion3d":"Este proyecto es una réplica de una habitación, creada en 3ds Max a partir de una foto de referencia. Actualmente, el modelo está en proceso. La intención es experimentar con el diseño de elementos de materiales blandos, como colchas y cojines, en lugar de concentrarse únicamente en objetos rígidos. Se busca explorar cómo trabajar con diferentes tipos de textiles y aplicar modificadores para lograr efectos realistas en estos elementos suaves.",
-    }
+    
 ];
 
 let atras3d = document.getElementById('atras3D');
@@ -248,6 +252,11 @@ adelante3D.addEventListener('click', function() {
 // Inicializar el carrusel
 actualizarCarrusel3d();
 let slides = [
+    {
+        "url": "./Imagenes/LODO2.gif",
+        "nombre": "Trabajo Personal",
+        "descripcion": "Animacion en progreso. Primera Parte realizada con Photoshop y Animate. Tengo mas animaciones personales en mi cuenta de Instagram donde actualizo con mas frecuencia el contenido.",
+    },
     {
         "url": "./Imagenes/Caminar.gif",
         "nombre": "Ciclo Caminar",
